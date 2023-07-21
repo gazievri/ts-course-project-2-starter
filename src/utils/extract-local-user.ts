@@ -9,7 +9,7 @@ export const extractLocalUser = (user: GithubUser ): LocalGithubUser => ({
     location: user.location,
     bio: user.bio,
     twitter: user.twitter_username,
-    repos: user.publick_repos,
+    repos: user.public_repos,
     followers: user.followers,
     following: user.following,
     created: user.created_at,
